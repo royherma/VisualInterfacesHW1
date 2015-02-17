@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		465C8AA83982CE49F570B699 /* libPods-HW1Visual.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DE34C4FDA11EF920091378 /* libPods-HW1Visual.a */; };
+		FE412DEB1A93257A007F6AB5 /* FaceDetectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE412DEA1A93257A007F6AB5 /* FaceDetectionViewController.m */; };
+		FE5E04BA1A91726900BCECE0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5E04B91A91726800BCECE0 /* AVFoundation.framework */; };
+		FE5E04BC1A91727100BCECE0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5E04BB1A91727100BCECE0 /* QuartzCore.framework */; };
+		FE5E04BE1A91727700BCECE0 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5E04BD1A91727700BCECE0 /* CoreImage.framework */; };
+		FE5E04C01A91727B00BCECE0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5E04BF1A91727B00BCECE0 /* CoreGraphics.framework */; };
+		FE5E04C31A91794200BCECE0 /* SecretTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E04C21A91794200BCECE0 /* SecretTableViewController.m */; };
 		FE8D07401A9156BC009A35D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8D073F1A9156BC009A35D0 /* main.m */; };
 		FE8D07431A9156BC009A35D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8D07421A9156BC009A35D0 /* AppDelegate.m */; };
 		FE8D07461A9156BC009A35D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8D07451A9156BC009A35D0 /* ViewController.m */; };
@@ -27,6 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4707AD4F623E7E356C82CE36 /* Pods-HW1Visual.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW1Visual.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HW1Visual/Pods-HW1Visual.debug.xcconfig"; sourceTree = "<group>"; };
+		992FDCDBB4BADB96A0998308 /* Pods-HW1Visual.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW1Visual.release.xcconfig"; path = "Pods/Target Support Files/Pods-HW1Visual/Pods-HW1Visual.release.xcconfig"; sourceTree = "<group>"; };
+		C4DE34C4FDA11EF920091378 /* libPods-HW1Visual.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HW1Visual.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE412DE91A93257A007F6AB5 /* FaceDetectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceDetectionViewController.h; sourceTree = "<group>"; };
+		FE412DEA1A93257A007F6AB5 /* FaceDetectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceDetectionViewController.m; sourceTree = "<group>"; };
+		FE5E04B91A91726800BCECE0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FE5E04BB1A91727100BCECE0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FE5E04BD1A91727700BCECE0 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		FE5E04BF1A91727B00BCECE0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE5E04C11A91794200BCECE0 /* SecretTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecretTableViewController.h; sourceTree = "<group>"; };
+		FE5E04C21A91794200BCECE0 /* SecretTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecretTableViewController.m; sourceTree = "<group>"; };
 		FE8D073A1A9156BB009A35D0 /* HW1Visual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW1Visual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8D073E1A9156BB009A35D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE8D073F1A9156BC009A35D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +65,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE5E04C01A91727B00BCECE0 /* CoreGraphics.framework in Frameworks */,
+				FE5E04BE1A91727700BCECE0 /* CoreImage.framework in Frameworks */,
+				FE5E04BC1A91727100BCECE0 /* QuartzCore.framework in Frameworks */,
+				FE5E04BA1A91726900BCECE0 /* AVFoundation.framework in Frameworks */,
+				465C8AA83982CE49F570B699 /* libPods-HW1Visual.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +83,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4AA27C94237A61377F082764 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE5E04BF1A91727B00BCECE0 /* CoreGraphics.framework */,
+				FE5E04BD1A91727700BCECE0 /* CoreImage.framework */,
+				FE5E04BB1A91727100BCECE0 /* QuartzCore.framework */,
+				FE5E04B91A91726800BCECE0 /* AVFoundation.framework */,
+				C4DE34C4FDA11EF920091378 /* libPods-HW1Visual.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97455116D5984F7D99192B8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4707AD4F623E7E356C82CE36 /* Pods-HW1Visual.debug.xcconfig */,
+				992FDCDBB4BADB96A0998308 /* Pods-HW1Visual.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FE8D07311A9156BB009A35D0 = {
 			isa = PBXGroup;
 			children = (
 				FE8D073C1A9156BB009A35D0 /* HW1Visual */,
 				FE8D07561A9156BC009A35D0 /* HW1VisualTests */,
 				FE8D073B1A9156BB009A35D0 /* Products */,
+				97455116D5984F7D99192B8A /* Pods */,
+				4AA27C94237A61377F082764 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +135,10 @@
 				FE8D074A1A9156BC009A35D0 /* Images.xcassets */,
 				FE8D074C1A9156BC009A35D0 /* LaunchScreen.xib */,
 				FE8D073D1A9156BB009A35D0 /* Supporting Files */,
+				FE5E04C11A91794200BCECE0 /* SecretTableViewController.h */,
+				FE5E04C21A91794200BCECE0 /* SecretTableViewController.m */,
+				FE412DE91A93257A007F6AB5 /* FaceDetectionViewController.h */,
+				FE412DEA1A93257A007F6AB5 /* FaceDetectionViewController.m */,
 			);
 			path = HW1Visual;
 			sourceTree = "<group>";
@@ -126,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE8D075D1A9156BD009A35D0 /* Build configuration list for PBXNativeTarget "HW1Visual" */;
 			buildPhases = (
+				74D38FCB6EE62C7BB6A0605B /* Check Pods Manifest.lock */,
 				FE8D07361A9156BB009A35D0 /* Sources */,
 				FE8D07371A9156BB009A35D0 /* Frameworks */,
 				FE8D07381A9156BB009A35D0 /* Resources */,
+				D9F48EB0053F05423D6212CF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +266,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		74D38FCB6EE62C7BB6A0605B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9F48EB0053F05423D6212CF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HW1Visual/Pods-HW1Visual-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FE8D07361A9156BB009A35D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE412DEB1A93257A007F6AB5 /* FaceDetectionViewController.m in Sources */,
 				FE8D07461A9156BC009A35D0 /* ViewController.m in Sources */,
 				FE8D07431A9156BC009A35D0 /* AppDelegate.m in Sources */,
 				FE8D07401A9156BC009A35D0 /* main.m in Sources */,
+				FE5E04C31A91794200BCECE0 /* SecretTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +428,7 @@
 		};
 		FE8D075E1A9156BD009A35D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4707AD4F623E7E356C82CE36 /* Pods-HW1Visual.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HW1Visual/Info.plist;
@@ -351,6 +439,7 @@
 		};
 		FE8D075F1A9156BD009A35D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 992FDCDBB4BADB96A0998308 /* Pods-HW1Visual.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HW1Visual/Info.plist;
@@ -412,6 +501,7 @@
 				FE8D075F1A9156BD009A35D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE8D07601A9156BD009A35D0 /* Build configuration list for PBXNativeTarget "HW1VisualTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +510,7 @@
 				FE8D07621A9156BD009A35D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

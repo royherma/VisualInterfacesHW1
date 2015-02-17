@@ -8,8 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate,UIAlertViewDelegate>
 
+@property IBOutlet UIImageView *imageView;
+
+@property IBOutlet UIButton *part1;
+@property IBOutlet UIButton *part2;
+
+@property IBOutlet UILabel *descriptionLabel1;
+@property IBOutlet UILabel *descriptionLabel2;
+
+@property IBOutlet UILabel *statusLabel;
+
+-(IBAction)clearEntries:(id)sender;
+-(IBAction)entryPressed:(id)sender;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *segmentedControl;
 
 @end
 
