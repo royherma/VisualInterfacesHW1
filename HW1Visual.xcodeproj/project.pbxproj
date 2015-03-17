@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		465C8AA83982CE49F570B699 /* libPods-HW1Visual.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DE34C4FDA11EF920091378 /* libPods-HW1Visual.a */; };
+		FE1C83741AB1464700562180 /* MultiDimensionalHistogram.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1C83731AB1464700562180 /* MultiDimensionalHistogram.m */; };
 		FE412DEB1A93257A007F6AB5 /* FaceDetectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE412DEA1A93257A007F6AB5 /* FaceDetectionViewController.m */; };
 		FE5E04BA1A91726900BCECE0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5E04B91A91726800BCECE0 /* AVFoundation.framework */; };
 		FE5E04BC1A91727100BCECE0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5E04BB1A91727100BCECE0 /* QuartzCore.framework */; };
@@ -21,6 +22,11 @@
 		FE8D074B1A9156BC009A35D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8D074A1A9156BC009A35D0 /* Images.xcassets */; };
 		FE8D074E1A9156BC009A35D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE8D074C1A9156BC009A35D0 /* LaunchScreen.xib */; };
 		FE8D075A1A9156BD009A35D0 /* HW1VisualTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8D07591A9156BD009A35D0 /* HW1VisualTests.m */; };
+		FEA4E5441AB660ED00CF398C /* LaplacianHistogram.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA4E5431AB660ED00CF398C /* LaplacianHistogram.m */; };
+		FEA4E5471AB8100500CF398C /* ComparisonTester.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA4E5461AB8100500CF398C /* ComparisonTester.m */; };
+		FEA4E54A1AB8182E00CF398C /* ImagesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA4E5491AB8182E00CF398C /* ImagesTableViewCell.m */; };
+		FEA4E54D1AB821B900CF398C /* InfoDisplayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA4E54C1AB821B900CF398C /* InfoDisplayTableViewCell.m */; };
+		FEA4E5501AB8386700CF398C /* ClusterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA4E54F1AB8386700CF398C /* ClusterCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,8 @@
 		4707AD4F623E7E356C82CE36 /* Pods-HW1Visual.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW1Visual.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HW1Visual/Pods-HW1Visual.debug.xcconfig"; sourceTree = "<group>"; };
 		992FDCDBB4BADB96A0998308 /* Pods-HW1Visual.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW1Visual.release.xcconfig"; path = "Pods/Target Support Files/Pods-HW1Visual/Pods-HW1Visual.release.xcconfig"; sourceTree = "<group>"; };
 		C4DE34C4FDA11EF920091378 /* libPods-HW1Visual.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HW1Visual.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1C83721AB1464700562180 /* MultiDimensionalHistogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiDimensionalHistogram.h; sourceTree = "<group>"; };
+		FE1C83731AB1464700562180 /* MultiDimensionalHistogram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiDimensionalHistogram.m; sourceTree = "<group>"; };
 		FE412DE91A93257A007F6AB5 /* FaceDetectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceDetectionViewController.h; sourceTree = "<group>"; };
 		FE412DEA1A93257A007F6AB5 /* FaceDetectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceDetectionViewController.m; sourceTree = "<group>"; };
 		FE5E04B91A91726800BCECE0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +66,16 @@
 		FE8D07531A9156BC009A35D0 /* HW1VisualTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW1VisualTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8D07581A9156BC009A35D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE8D07591A9156BD009A35D0 /* HW1VisualTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW1VisualTests.m; sourceTree = "<group>"; };
+		FEA4E5421AB660ED00CF398C /* LaplacianHistogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaplacianHistogram.h; sourceTree = "<group>"; };
+		FEA4E5431AB660ED00CF398C /* LaplacianHistogram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaplacianHistogram.m; sourceTree = "<group>"; };
+		FEA4E5451AB8100500CF398C /* ComparisonTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComparisonTester.h; sourceTree = "<group>"; };
+		FEA4E5461AB8100500CF398C /* ComparisonTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComparisonTester.m; sourceTree = "<group>"; };
+		FEA4E5481AB8182E00CF398C /* ImagesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesTableViewCell.h; sourceTree = "<group>"; };
+		FEA4E5491AB8182E00CF398C /* ImagesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesTableViewCell.m; sourceTree = "<group>"; };
+		FEA4E54B1AB821B900CF398C /* InfoDisplayTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoDisplayTableViewCell.h; sourceTree = "<group>"; };
+		FEA4E54C1AB821B900CF398C /* InfoDisplayTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoDisplayTableViewCell.m; sourceTree = "<group>"; };
+		FEA4E54E1AB8386700CF398C /* ClusterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClusterCell.h; sourceTree = "<group>"; };
+		FEA4E54F1AB8386700CF398C /* ClusterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClusterCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +125,8 @@
 		FE8D07311A9156BB009A35D0 = {
 			isa = PBXGroup;
 			children = (
+				FEA4E54E1AB8386700CF398C /* ClusterCell.h */,
+				FEA4E54F1AB8386700CF398C /* ClusterCell.m */,
 				FE8D073C1A9156BB009A35D0 /* HW1Visual */,
 				FE8D07561A9156BC009A35D0 /* HW1VisualTests */,
 				FE8D073B1A9156BB009A35D0 /* Products */,
@@ -129,8 +149,18 @@
 			children = (
 				FE8D07411A9156BC009A35D0 /* AppDelegate.h */,
 				FE8D07421A9156BC009A35D0 /* AppDelegate.m */,
+				FEA4E5481AB8182E00CF398C /* ImagesTableViewCell.h */,
+				FEA4E5491AB8182E00CF398C /* ImagesTableViewCell.m */,
 				FE8D07441A9156BC009A35D0 /* ViewController.h */,
 				FE8D07451A9156BC009A35D0 /* ViewController.m */,
+				FEA4E5421AB660ED00CF398C /* LaplacianHistogram.h */,
+				FEA4E5431AB660ED00CF398C /* LaplacianHistogram.m */,
+				FE1C83721AB1464700562180 /* MultiDimensionalHistogram.h */,
+				FE1C83731AB1464700562180 /* MultiDimensionalHistogram.m */,
+				FEA4E54B1AB821B900CF398C /* InfoDisplayTableViewCell.h */,
+				FEA4E54C1AB821B900CF398C /* InfoDisplayTableViewCell.m */,
+				FEA4E5451AB8100500CF398C /* ComparisonTester.h */,
+				FEA4E5461AB8100500CF398C /* ComparisonTester.m */,
 				FE8D07471A9156BC009A35D0 /* Main.storyboard */,
 				FE8D074A1A9156BC009A35D0 /* Images.xcassets */,
 				FE8D074C1A9156BC009A35D0 /* LaunchScreen.xib */,
@@ -304,11 +334,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE1C83741AB1464700562180 /* MultiDimensionalHistogram.m in Sources */,
 				FE412DEB1A93257A007F6AB5 /* FaceDetectionViewController.m in Sources */,
 				FE8D07461A9156BC009A35D0 /* ViewController.m in Sources */,
+				FEA4E5441AB660ED00CF398C /* LaplacianHistogram.m in Sources */,
 				FE8D07431A9156BC009A35D0 /* AppDelegate.m in Sources */,
 				FE8D07401A9156BC009A35D0 /* main.m in Sources */,
 				FE5E04C31A91794200BCECE0 /* SecretTableViewController.m in Sources */,
+				FEA4E5471AB8100500CF398C /* ComparisonTester.m in Sources */,
+				FEA4E5501AB8386700CF398C /* ClusterCell.m in Sources */,
+				FEA4E54D1AB821B900CF398C /* InfoDisplayTableViewCell.m in Sources */,
+				FEA4E54A1AB8182E00CF398C /* ImagesTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
